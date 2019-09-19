@@ -15,6 +15,9 @@ setup(
     install_requires=[
         'jupyter_client', 'IPython', 'ipykernel'
     ],
+    dependency_links=[
+        'git+https://github.com/miroslav14/qtpi_kernel.git@master#egg=qtpi_kernel-0'
+    ],
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
