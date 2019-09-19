@@ -6,7 +6,7 @@ with open('README.rst') as f:
 
 setup(
     name='qtpi_kernel',
-    version='1.0',
+    version='0.1.0',
     packages=['qtpi_kernel'],
     description='Simple example of qtpi kernel python wrapper for Jupyter',
     long_description=readme,
