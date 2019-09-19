@@ -4,7 +4,7 @@ class QtpiKernel(Kernel):
     implementation = 'Qtpi'
     implementation_version = '1.0'
     language = 'qtpi'
-    language_version = '0.1'
+    language_version = '1.0'
     language_info = {
         'name': 'Any text',
         'mimetype': 'text/plain',
