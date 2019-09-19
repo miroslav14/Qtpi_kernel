@@ -1,7 +1,7 @@
 qtpi_kernel
 ===========
 
-``qtpi_kernel`` is an example of a modified Jupyter kernel python wrapper to 
+``qtpi_kernel`` is, an example of a modified Jupyter kernel python wrapper to 
 enable inputs written in Qtpi quantum language. This repository complements the 
 documentation on wrapper kernels here:  
 
