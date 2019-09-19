@@ -11,7 +11,7 @@ setup(
     long_description=readme,
     author='Jupyter Development Team',
     author_email='jupyter@googlegroups.com',
-    url='https://github.com/miroslav14/qtpi_kernel',
+    url='https://github.com/miroslav14/qtpi_kernel.git',
     install_requires=[
         'jupyter_client', 'IPython', 'ipykernel'
     ],
