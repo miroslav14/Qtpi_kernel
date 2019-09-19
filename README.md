@@ -13,7 +13,8 @@ Installation
 2. User has to install package manager :
 ``pip`` in case of Python 2 or ``pip3``in case of Python 3.
 
-3. Here are 2 options which depends on the previous installation:
+3. Here are 2 options which depends on the previous installation -
+
 To install ``qtpi_kernel`` from PyPI using ``Python 2``::
 
     pip install qtpi_kernel
