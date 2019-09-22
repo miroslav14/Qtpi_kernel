@@ -1,4 +1,0 @@
-recursive-include qtpi_test_kernel *
-include setup.py
-include LICENSE
-include README.rst
