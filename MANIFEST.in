@@ -1,4 +1,4 @@
 recrusive-include qtpi_test_kernel *
 incude setup.py
 include license
-include README
+include readme
