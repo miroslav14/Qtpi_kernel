@@ -5,9 +5,9 @@ with open('README.md') as f:
     readme = f.read()
 
 setup(
-    name='qtpi_kernel',
+    name='qtpi_test_kernel',
     version='0.1.0',
-    packages=['qtpi_kernel'],
+    packages=['qtpi_test_kernel'],
     description='Simple example of qtpi kernel python wrapper for Jupyter',
     long_description=readme,
     author='Jupyter Development Team',
