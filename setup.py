@@ -6,9 +6,10 @@ with open("README.md", "r") as f:
 
 setup(
     name='qtpi_test_kernel',
-    version='0.1.0',
+    version='0.1.1',
     packages=['qtpi_test_kernel'],
     description='Simple example of qtpi test kernel python wrapper for Jupyter to enable Qtpi quantum language',
+    long_description_content_type='text/markdown',
     long_description=readme,
     author='Jupyter Development Team',
     author_email='jupyter@googlegroups.com',
