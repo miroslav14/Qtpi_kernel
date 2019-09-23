@@ -1,4 +1,4 @@
-_kernel
+qtpi_test_kernel
 ===========
 
 ``qtpi_test_kernel`` is an example of a modified Jupyter kernel python wrapper to 
