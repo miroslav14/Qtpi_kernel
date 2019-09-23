@@ -1,7 +1,7 @@
 _kernel
 ===========
 
-``qtpi_kernel`` is an example of a modified Jupyter kernel python wrapper to 
+``qtpi_test_kernel`` is an example of a modified Jupyter kernel python wrapper to 
 enable inputs written in Qtpi quantum language. This repository complements the 
 documentation on wrapper kernels here:  
 
@@ -15,16 +15,16 @@ Installation
 
 3. Here are 2 options which depends on the previous installation -
 
-To install ``qtpi_kernel`` from PyPI using ``Python 2``::
+To install ``qtpi_test_kernel`` from PyPI using ``Python 2``::
 
-    pip install qtpi_kernel
-    python -m qtpi_kernel.install
+    pip install qtpi_test_kernel
+    python -m qtpi_test_kernel.install
     
 
-To install ``qtpi_kernel`` from PyPI using ``Python 3``::
+To install ``qtpi_test_kernel`` from PyPI using ``Python 3``::
 
-    pip3 install qtpi_kernel
-    python3 -m qtpi_kernel.install
+    pip3 install qtpi_test_kernel
+    python3 -m qtpi_test_kernel.install
 
 Using the Qtpi kernel
 ---------------------
