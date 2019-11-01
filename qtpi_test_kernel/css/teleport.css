@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document for teleport in qtpi */
+<style>
+#Legend {
+			width:200px;
+			height:228px;
+			background-color: #999;
+			z-index: 1;
+      }
+        #arrow {
+		position:absolute;
+		width:26px;
+		height:30px;
+		font-size: 20px;
+		z-index: 2;
+		-moz-transform: scale(-1, 1);
+		-webkit-transform: scale(-1, 1);
+		-o-transform: scale(-1, 1);
+		-ms-transform: scale(-1, 1);
+		-transform: scale(-1, 1);
+	  }
+        #line1 {
+	position:absolute;
+	width:447px;
+	height:43px;
+	z-index:3;
+	background-color:#30F;
+	left: 217px;
+	top: 166px;
+	font-size: 50px;
+	font-weight: bold;
+		  }
+		#object1 {
+		  display: inline-block;
+		  background-color: #999;
+		  border: #333 2px solid;
+		  width: 35px;
+		  height: 35px;
+		  margin: 5px;
+		  padding-right: 3px;
+		  padding-left: 3px;
+		  padding-bottom: 3px;
+		  font-size: 30px;
+		  text-align: center;
+		  cursor: move;
+		  -moz-transform: scale(-1, 1);
+		  -webkit-transform: scale(-1, 1);
+		  -o-transform: scale(-1, 1);
+		  -ms-transform: scale(-1, 1);
+		  -transform: scale(-1, 1);
+		}
+		#object1:hover {
+			box-shadow: 0px 0px 5px 3px #333333;
+		}
+        #object2 {
+		  display: inline-block;
+		  background-color: #999;
+		  border: #333 2px solid;
+		  width: 35px;
+		  height: 35px;
+		  margin: 5px;
+		  padding-right: 3px;
+		  padding-left: 3px;
+		  padding-bottom: 3px;
+		  font-size: 30px;
+		  text-align: center;
+		  cursor: move;
+		  -moz-transform: scale(-1, 1);
+		  -webkit-transform: scale(-1, 1);
+		  -o-transform: scale(-1, 1);
+		  -ms-transform: scale(-1, 1);
+		  -transform: scale(-1, 1);
+		}
+        #object2:hover {
+			box-shadow: 0px 0px 5px 3px #333333;
+		}
+		#object3 {
+		   display: inline-block;
+		  background-color: #999;
+		  border: #333 2px solid;
+		  width: 35px;
+		  height: 35px;
+		  margin: 5px;
+		  padding-right: 3px;
+		  padding-left: 3px;
+		  padding-bottom: 3px;
+		  font-size: 30px;
+		  text-align: center;
+		  cursor: move;
+		}
+		#object3:hover {
+			box-shadow: 0px 0px 5px 3px #333333;
+		}
+		#object4 {
+		   display: inline-block;
+		  background-color: #999;
+		  border: #333 2px solid;
+		   width: 35px;
+		  height: 35px;
+		  margin: 5px;
+		  padding-right: 3px;
+		  padding-left: 3px;
+		  padding-bottom: 3px;
+		  font-size: 30px;
+		  text-align: center;
+		  cursor: move;
+		}
+		#object4:hover {
+			box-shadow: 0px 0px 5px 3px #333333;
+		}
+		#object5 {
+		  display: inline-block;
+		  background-color: #999;
+		  border: #333 2px solid;
+		  width: 35px;
+		  height: 35px;
+		  margin: 5px;
+		  padding-right: 3px;
+		  padding-left: 3px;
+		  padding-bottom: 3px;
+		  font-size: 30px;
+		  text-align: center;
+		  cursor: move;
+		}
+		#object5:hover {
+			box-shadow: 0px 0px 5px 3px #333333;
+		}
+		#object6 {
+		   display: inline-block;
+		  background-color: #999;
+		  border: #333 2px solid;
+		  width: 35px;
+		  height: 35px;
+		  margin: 5px;
+		  padding-right: 3px;
+		  padding-left: 3px;
+		  padding-bottom: 3px;
+		  font-size: 30px;
+		  text-align: center;
+		  cursor: move;
+		}
+		#object6:hover {
+			box-shadow: 0px 0px 5px 3px #333333;
+		}
+		#object7 {
+		  display: inline-block;
+		  background-color: #999;
+		  border: #333 2px solid;
+		   width: 35px;
+		  height: 35px;
+		  margin: 5px;
+		  padding-right: 3px;
+		  padding-left: 3px;
+		  padding-bottom: 3px;
+		  font-size: 30px;
+		  text-align: center;
+		  cursor: move; 
+		}
+		#object7:hover {
+			box-shadow: 0px 0px 5px 3px #333333;
+		}
+		#object8 {
+		   display: inline-block;
+		  background-color: #999;
+		  border: #333 2px solid;
+		   width: 35px;
+		  height: 35px;
+		  margin: 5px;
+		  padding-right: 3px;
+		  padding-left: 3px;
+		  padding-bottom: 3px;
+		  font-size: 30px;
+		  text-align: center;
+		  cursor: move; 
+		}
+		#object8:hover {
+			box-shadow: 0px 0px 5px 3px #333333;
+		}
+       #drop_zone1 {
+		   background-color: #C96;
+		   border: #333 2px solid;
+		   width: 35px;
+		   height: 35px;
+		   padding: 8px;
+		   font-size: 18px;  
+	   } 
+        .title_name {
+            color: #600;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+        }
+       .description {
+            color: #666;	 
+        }
+</style>
